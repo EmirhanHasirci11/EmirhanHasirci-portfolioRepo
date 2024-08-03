@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterModule } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -11,14 +12,16 @@ import { RouterLink, RouterModule } from '@angular/router';
     CommonModule,
     FormsModule,
     RouterModule,
-    RouterLink
+    RouterLink,
+    
 
   ],
   exports:[
     CommonModule,
     FormsModule,
     RouterModule,
-    RouterLink
+    RouterLink,
+    
   ]
 })
 export class SharedModule { }

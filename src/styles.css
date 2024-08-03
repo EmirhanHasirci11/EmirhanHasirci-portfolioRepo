@@ -1,1 +1,107 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-size: 1.2rem;
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.projectsSection {
+    margin-top: 250px;
+    background-color: red;
+    height: 100vh;
+}
+
+.account-links:hover {
+    cursor: pointer;
+    color: rgb(177, 9, 177);
+}
+
+.account-links {
+    text-decoration: none;
+    color: wheat;
+}
+
+.profilePic {
+    border-radius: 70%;
+    object-fit: fill;
+    min-width: 450px;
+    min-height: 450px;
+}
+
+.landingSection {
+    margin-top: 150px;
+    text-align:start;
+}
+
+.description {
+    font-size: 1.8rem;
+}
+
+html {
+    height: 100%;
+    background: #050326;
+}
+
+.myName {
+    font-size: 1.8rem;
+}
+
+
+.navbar-img {
+    max-width: 7vw;
+    max-height: 7vh;
+    margin-right: 10px;
+    border-radius: 200px;
+}
+
+.navbar-brand {
+    color: rgb(5, 205, 255);
+}
+
+.nav-link {
+    color: rgb(5, 205, 255);
+}
+
+    .nav-link:hover {
+        color: rgb(177, 9, 177);
+    }
+
+.nameText {
+    color: rgb(5, 205, 255);
+    font-size: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nameText {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .profilePic {
+        margin-bottom:20px;
+        margin-top:20px;
+        min-width: 380px;
+        min-height: 340px;
+        max-height: 500px;
+        max-width: 100px;
+    }
+
+    .landingSection {
+        margin-top: 25px;
+        text-align:center !important;
+    }
+
+    .accounts {
+        text-align: center !important;
+    }
+
+    .projectsSection {
+        margin-top: 32vh;
+        background-color: red;
+        height: 100vh;
+    }
+}

@@ -6,6 +6,7 @@ import { SharedModule } from '../common/shared/shared/shared.module';
   standalone: true,
   imports: [SharedModule],
   template:`<router-outlet>`,
+  styleUrls:["/src/styles.css",]
 })
 export class AppComponent {
   title = 'Portfolio';
