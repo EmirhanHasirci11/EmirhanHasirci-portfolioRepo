@@ -1,0 +1,84 @@
+body{
+    height: 100%;
+    background: #050326;
+    color: white;
+}
+.nameText {
+    color: rgb(5, 205, 255);
+    font-size: 3.5rem;
+}
+.myName {
+    font-size: 1.8rem;
+}
+.landingSection {
+    margin-top: 150px;
+    text-align:start;
+}
+.description {
+    font-size: 2.2rem;
+    color: wheat;
+    padding-right: 4.5rem;
+}
+.profilePic {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 450px; /* Adjusted width as per your request */
+    height: 450px; /* Adjusted height as per your request */
+    border-radius: 70%; 
+    object-fit: fill; 
+    overflow: hidden; 
+}
+.account-links:hover {
+    cursor: pointer;
+    color: rgb(177, 9, 177);
+}
+
+.account-links {
+    text-decoration: none;
+    color: rgb(177, 9, 177);    
+    align-items: center; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+@media only screen and (max-width: 600px) {
+    .nameText {
+        font-size: 40px;
+    }
+    
+    .description {
+        font-size: 1.3rem;
+        text-align: center;
+        padding-right: 0 !important;        
+    }
+    
+    .profilePic {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%; 
+        max-width: 350px; 
+        height: auto; 
+        border-radius: 50%; 
+    }
+    
+    .landingSection {
+        margin-top: 25px;
+        text-align:center !important;
+    }
+    
+    .accounts {
+        text-align: center !important;
+    }
+    .account-links {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 3.2rem;
+    }
+    
+    .account-links i {
+        font-size: 20px; 
+        margin-right: 8px; 
+    }
+}

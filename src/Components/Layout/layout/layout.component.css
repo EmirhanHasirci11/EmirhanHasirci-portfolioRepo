@@ -1,3 +1,73 @@
 .mainNav{
     background-color:#050326; ;
 }
+.myName {
+    font-size: 1.8rem;
+}
+
+
+.navbar-img {
+    max-width: 7vw;
+    max-height: 7vh;
+    margin:10px 10px 0 0 ;
+    border-radius: 200px;
+}
+
+.navbar-brand {
+    color: rgb(5, 205, 255);
+}
+
+.nav-link {
+    color: rgb(5, 205, 255);
+}
+
+    .nav-link:hover {
+        color: rgb(177, 9, 177);
+    }
+
+.nameText {
+    color: rgb(5, 205, 255);
+    font-size: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nameText {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .navbar-img {
+        max-width:14vw;
+        max-height: 10vh;
+        margin:10px 10px 0 0 ;
+        border-radius: 200px;
+    }
+    
+    .profilePic {
+        margin-bottom:20px;
+        margin-top:20px;
+        min-width: 380px;
+        min-height: 340px;
+        max-height: 500px;
+        max-width: 100px;
+    }
+
+
+    .accounts {
+        text-align: center !important;
+    }
+
+}
+
+.account-links:hover {
+    cursor: pointer;
+    color: rgb(177, 9, 177);
+}
+
+.account-links {
+    text-decoration: none;
+    color: wheat;
+}
