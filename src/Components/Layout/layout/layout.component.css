@@ -22,7 +22,7 @@
 }
 
     .nav-link:hover {
-        color: rgb(177, 9, 177);
+        color: rgb(230, 9, 177);
     }
 
 .nameText {
@@ -64,7 +64,7 @@
 
 .account-links:hover {
     cursor: pointer;
-    color: rgb(177, 9, 177);
+    color: rgb(230, 9, 177);
 }
 
 .account-links {

@@ -4,6 +4,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+::-webkit-scrollbar {
+    width: 0;  /* WebKit tabanlı tarayıcılar için kaydırma çubuğunu gizler */
+    background: transparent;  /* Arka planı şeffaf yapar */
 }
 
 html {

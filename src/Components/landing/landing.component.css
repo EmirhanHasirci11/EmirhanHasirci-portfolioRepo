@@ -2,10 +2,16 @@ body{
     height: 100%;
     background: #050326;
     color: white;
+   
 }
+
 .nameText {
     color: rgb(5, 205, 255);
     font-size: 3.5rem;
+}
+
+.nameText:hover{
+    color: rgb(230, 9, 177);   
 }
 .myName {
     font-size: 1.8rem;
@@ -19,6 +25,9 @@ body{
     color: wheat;
     padding-right: 4.5rem;
 }
+.description:hover {
+    color: rgb(230, 9, 177);   
+}
 .profilePic {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -28,15 +37,19 @@ body{
     border-radius: 70%; 
     object-fit: fill; 
     overflow: hidden; 
+    background-color: #000340;
+}
+.profilePic:hover{
+    background-color:rgb(30, 9, 100); 
 }
 .account-links:hover {
     cursor: pointer;
-    color: rgb(177, 9, 177);
+    color: rgb(5, 205, 255);
 }
 
 .account-links {
     text-decoration: none;
-    color: rgb(177, 9, 177);    
+    color: rgb(230, 9, 177);    
     align-items: center; 
     margin-bottom: 10px; 
     text-decoration: none; 
@@ -46,6 +59,9 @@ body{
     .nameText {
         font-size: 40px;
     }
+    body{
+        padding-right: 0px; 
+    }
     
     .description {
         font-size: 1.3rem;
@@ -53,14 +69,12 @@ body{
         padding-right: 0 !important;        
     }
     
-    .profilePic {
-        margin-bottom: 20px;
-        margin-top: 20px;
+    .profilePic {       
         margin-left: 0px;
         width: 100%; 
         max-width: 350px; 
         height: auto; 
-        border-radius: 50%; 
+        border-radius: 50%;         
     }
     
     .landingSection {
@@ -74,7 +88,7 @@ body{
     .account-links {
         display: flex;
         justify-content: flex-start;
-        margin-left: 3.2rem;
+        margin-left: 15vw;
     }
     
     .account-links i {

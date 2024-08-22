@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="row landingSection">
             <div class="col-md-6 " style="color: wheat;">
                 <h3>
-                    Hello There,                    
-                    <span >My Name is</span>
+                    Hello There,
+                    <span>My Name is</span>
                 </h3>
-       
+
                 <span class="nameText ms-md-2 pt-md-5 mt-0  fw-bolder">{{nameText}}</span><br />
                 <div class="mt-md-3  description text-center">
-       
-                    <small class="fw-bolder">Full-Stack & Indie Game</small>                    
+
+                    <small class="fw-bolder">Full-Stack & Indie Game</small>
                     <small class="fw-bolder"> Developer</small>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="  border border-3 border-light bg-primary bg-opacity-10 profilePic" src="assets/images/Profile.png" />
+                <img class="border border-3 border-light bg-opacity-10 profilePic" src="assets/images/Profile.png" />
             </div>
             <div class="row d-sm-inline accounts text-start">
-                <a class="account-links" href="https://www.linkedin.com/in/emirhanhasirci/" target="_blank"><i class="fa-brands fa-linkedin "></i><span class="fw-bolder ">Emirhanhasirci</span></a>
-                <a class="account-links" href="https://github.com/EmirhanHasirci11" target="_blank"><i class="fa-brands fa-github "></i><span class="fw-bolder">EmirhanHasirci11</span></a>
-                <a class="account-links" href="https://www.youtube.com/channel/UCjFSizWQw42QeP6pWsOY8YA" target="_blank"><i class="fa-brands fa-youtube"></i><span class="fw-bolder">Emirhan-Hasirci</span></a>
+                <a class="account-links" href="https://www.linkedin.com/in/emirhanhasirci/" target="_blank"><i
+                        class="fa-brands fa-linkedin "></i><span class="fw-bolder ">Emirhanhasirci</span></a>
+                <a class="account-links" href="https://github.com/EmirhanHasirci11" target="_blank"><i
+                        class="fa-brands fa-github "></i><span class="fw-bolder">EmirhanHasirci11</span></a>
+                <a class="account-links" href="https://www.youtube.com/channel/UCjFSizWQw42QeP6pWsOY8YA"
+                    target="_blank"><i class="fa-brands fa-youtube"></i><span
+                        class="fw-bolder">Emirhan-Hasirci</span></a>
             </div>
+        </div>
+        <div class="row projectSection mt-md-5">
+            <app-projects></app-projects>
         </div>
     </div>
 </body>
+
 </html>
