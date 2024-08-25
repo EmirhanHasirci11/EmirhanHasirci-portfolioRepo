@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { SharedModule } from '../../common/shared/shared/shared.module';
-import { ProjectsComponent } from "../projects/projects.component";
+import { ProjectsComponent } from "./projects/projects.component";
 
 @Component({
   selector: 'app-landing',

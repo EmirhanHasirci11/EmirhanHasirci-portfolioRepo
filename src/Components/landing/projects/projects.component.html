@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>    
+    <div *ngFor="let c of projects; let i = index">
+        <div *ngIf="i % 2 === 0; else oddTemplate" class="row mb-md-5 mb-2 rowOfProject">
+          <div class="col-md-6 order-md-1 order-1 text-center">
+            <a href="" class="text-decoration-none text-capitalize" style="color: wheat;"> 
+              <h3 style="color: wheat; font-weight: bold;">{{ c.title }}</h3>
+              <img [src]="c.thumbnail" class="w-100" alt="Project Image"> details
+            </a>
+          </div>
+          <div class="col-md-6 order-md-2 order-2 ps-4 text-center d-flex flex-column justify-content-start">            
+            <p>{{ c.shortDesc }}</p>
+          </div>
+        </div>
+        <ng-template #oddTemplate>
+          <div class="row rowOfProject mb-md-5 mb-2">
+            <div class="col-md-6 order-md-1 order-2 ps-4 text-center d-flex flex-column justify-content-start">              
+              <p>{{ c.shortDesc }}</p>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 text-center">
+              <a href="" class="text-decoration-none text-capitalize" style="color: wheat;"> 
+                <h3 style="color: wheat; font-weight: bold;">{{ c.title }}</h3>
+                <img [src]="c.thumbnail" class="w-100" alt="Project Image"> details
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+</body>
+</html>

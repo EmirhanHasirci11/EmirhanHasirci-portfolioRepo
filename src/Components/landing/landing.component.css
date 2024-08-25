@@ -70,7 +70,7 @@ body{
     }
     
     .profilePic {       
-        margin-left: 0px;
+        margin-left: 1vw;
         width: 100%; 
         max-width: 350px; 
         height: auto; 
