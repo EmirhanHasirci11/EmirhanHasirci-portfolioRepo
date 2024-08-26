@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SharedModule } from '../../../common/shared/shared/shared.module';
-import { Projects } from '../../../models/projects.entity';
-import { Project } from '../../../models/project.model';
+import { Project, Projects } from '../../../models/projects.entity';
 
 @Component({
   selector: 'app-projects',

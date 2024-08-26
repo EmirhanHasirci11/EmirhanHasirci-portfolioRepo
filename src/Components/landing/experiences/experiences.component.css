@@ -1,0 +1,27 @@
+
+.expHeader{
+    background: #050336;
+    color: rgb(230, 9, 177);   
+    border-color:rgb(230, 9, 177) !important; 
+    
+}
+.expHeader:hover{
+  color: rgb(5, 205, 255);
+  border-color:rgb(5, 205, 255) !important; 
+}
+.card,.card-body{
+    border-color:rgb(230, 9, 177) !important;
+    background: #050336; 
+    
+}
+.card:hover,.card-body:hover{
+    border-color:rgb(5, 205, 255) !important; 
+}
+
+.experiencesHead{
+    color: rgb(230, 9, 177);
+}
+
+.experiencesHead:hover{
+    color: rgb(5, 205, 255) ; 
+}

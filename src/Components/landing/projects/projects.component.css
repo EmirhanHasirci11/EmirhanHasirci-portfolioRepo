@@ -1,10 +1,56 @@
 body{
-    height: 100%;
-    margin-top: 15vh;
+    height: 100%;    
     color: white;
 }
 .rowOfProject{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.projectTitle{
+    color: rgb(5, 205, 255);
+}
+.projectDesc{
+    color: wheat;
+}
+.projectLink{
+    color: rgb(230, 9, 177);   
+}
+.projectImgCol{
+    border-color:rgb(230, 9, 177) !important; 
+}
+.card,.card-body{
+    border-color:rgb(230, 9, 177) !important;
+    background: #050336; 
+    
+}
+.card:hover,.card-body:hover{
+    border-color:rgb(5, 205, 255) !important; 
+}
+.viewMore{
+    text-decoration: none;
+    color: rgb(5, 205, 255) ; 
+}
+
+.viewMore:hover{
+    color: wheat;
+}
+.projectsHead{
+    color: rgb(230, 9, 177);
+}
+
+.projectsHead:hover{
+    color: rgb(5, 205, 255) ; 
+}
+.projectImageL{
+    border-color: rgb(5, 205, 255) !important; 
+    border-style: groove;
+    border-radius: 50px;
+    
+}
+.projectImageR{
+    border-color: rgb(230, 9, 177) !important; 
+    border-style: groove;
+    border-radius: 50px;
+    
 }

@@ -4,7 +4,9 @@ body{
     color: white;
    
 }
-
+.careerSection{
+    margin-top: 15vh;
+}
 .nameText {
     color: rgb(5, 205, 255);
     font-size: 3.5rem;
@@ -47,6 +49,14 @@ body{
     color: rgb(5, 205, 255);
 }
 
+.experiencesHead{
+    
+    color: rgb(5, 205, 255) ; 
+}
+
+.experiencesHead:hover{
+    color: rgb(230, 9, 177);
+}
 .account-links {
     text-decoration: none;
     color: rgb(230, 9, 177);    
@@ -61,6 +71,9 @@ body{
     }
     body{
         padding-right: 0px; 
+    }
+    .careerSection{
+        margin-top: 2vh;
     }
     
     .description {
