@@ -12,7 +12,7 @@ import { Experience, Experiences } from '../../../models/experiences.entity';
 export class ExperiencesComponent implements OnInit{
   data:Experience[]=[]
   ngOnInit(): void {
-    this.data=new Experiences().data
+    this.data = new Experiences().data.sort((a, b) => a.id.localeCompare(b.id));
   }
 
 }

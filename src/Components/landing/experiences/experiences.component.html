@@ -6,9 +6,20 @@
             <div class="card">
                 <div class="expHeader card-header text-center">
                     {{exp.title}}
-
+                    <br>
+                    <small style="color:wheat">{{exp.type}}</small>
+                    
+                    <div class="dateOfExp fst-italic ">
+                        <span class="start">{{ exp.startDate }}</span>
+                        <span class="d-none d-sm-flex">|</span>
+                        <span class="end">{{ exp.endDate }}</span>
+                    </div>
                 </div>
-                <div class="card-body"></div>                
+                <div class="card-body h-100">
+                    <p style="color:wheat" class="desc">
+                        {{exp.desc}}
+                    </p>
+                </div>                
             </div>
         </div>        
     </div>    

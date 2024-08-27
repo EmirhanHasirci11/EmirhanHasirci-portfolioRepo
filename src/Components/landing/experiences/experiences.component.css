@@ -3,6 +3,9 @@
     background: #050336;
     color: rgb(230, 9, 177);   
     border-color:rgb(230, 9, 177) !important; 
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     
 }
 .expHeader:hover{
@@ -12,7 +15,8 @@
 .card,.card-body{
     border-color:rgb(230, 9, 177) !important;
     background: #050336; 
-    
+    border-radius: 50px;
+    height: 55vh;    
 }
 .card:hover,.card-body:hover{
     border-color:rgb(5, 205, 255) !important; 
@@ -25,3 +29,41 @@
 .experiencesHead:hover{
     color: rgb(5, 205, 255) ; 
 }
+.dateOfExp{
+    color: rgb(5, 205, 255) ;
+}
+.dateOfExp:hover{
+    color: rgb(230, 9, 177);
+}
+
+.desc{
+    font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .card,.card-body{
+        border-color:rgb(230, 9, 177) !important;
+        background: #050336; 
+        border-radius: 50px;
+        height: auto;    
+    }
+}
+.dateOfExp {
+    display: flex;
+    justify-content: center;
+   gap: 10px; 
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 767px) {
+    .dateOfExp {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .dateOfExp .start,
+    .dateOfExp .end {
+      display: block;
+    }
+  }
+  

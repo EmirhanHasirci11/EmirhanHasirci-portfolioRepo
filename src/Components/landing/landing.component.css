@@ -34,8 +34,8 @@ body{
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 200px;
-    width: 450px; /* Adjusted width as per your request */
-    height: 450px; /* Adjusted height as per your request */
+    width: 450px; 
+    height: 450px;
     border-radius: 70%; 
     object-fit: fill; 
     overflow: hidden; 
@@ -101,7 +101,7 @@ body{
     .account-links {
         display: flex;
         justify-content: flex-start;
-        margin-left: 15vw;
+        margin-left: 12vw;
     }
     
     .account-links i {
