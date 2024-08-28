@@ -16,7 +16,12 @@
 .navbar-brand {
     color: rgb(5, 205, 255);
 }
-
+.nav-link-resume{
+    color: wheat !important;
+}
+.nav-link-resume:hover{
+    color: rgb(230, 9, 177) !important;
+}
 .nav-link {
     color: rgb(5, 205, 255);
 }

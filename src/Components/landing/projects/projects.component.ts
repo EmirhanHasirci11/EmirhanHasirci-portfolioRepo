@@ -3,7 +3,7 @@ import { SharedModule } from '../../../common/shared/shared/shared.module';
 import { Project, Projects } from '../../../models/projects.entity';
 
 @Component({
-  selector: 'app-projects',
+  selector: 'app-landing-projects',
   standalone: true,
   imports: [SharedModule],
   templateUrl: './projects.component.html',
@@ -12,7 +12,7 @@ import { Project, Projects } from '../../../models/projects.entity';
 export class ProjectsComponent implements OnInit {
   projects: Project[]=[]
   ngOnInit(): void {
-    this.projects = new Projects().data;
+    this.projects = new Projects().data.slice(0,4);
   }
 
 }

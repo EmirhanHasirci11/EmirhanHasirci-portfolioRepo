@@ -1,0 +1,62 @@
+<div class="container text-center">
+    <div class="row">
+        <div class="categorySection">
+            <div>
+                <a class="normal catLink" [ngClass]="{ 'active': selectedCategory === 'Normal' }"
+                    (click)="selectCategory('Normal')">Projects</a>
+                <span>|</span>
+                <a class="game catLink" [ngClass]="{ 'active': selectedCategory === 'Game' }"
+                    (click)="selectCategory('Game')">Games</a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="row">
+        <div *ngIf="selectedCategory === 'Normal'">
+            <h2 class="text-center mb-md-4" style="color:wheat">Normal Projects</h2>
+            <div class="row">
+                <div *ngFor="let project of normalProjects" class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="card-title">{{ project.title }}</h5>
+                            <div class="dateOfProject fst-italic border-bottom rounded-5 ">
+                                <span class="start fs-6">{{ project.startDate }}</span>
+                                <span class="d-none d-sm-flex fs-6">|</span>
+                                <span class="end fs-6">{{ project.endDate }}</span>
+                            </div>
+                        </div>
+                        <img class="rounded-5 p-3 border-bottom rounded-5 w-100" [src]="project.thumbnail" alt="">                       
+                        <div class="card-body" style="color:wheat">      
+                            {{ project.desc | truncate:191 }}                   
+                        </div>
+                        <hr style="border-color:wheat">
+                        <a href="#" class="card-link p-0">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="selectedCategory === 'Game'">
+            <h2 class="text-center mb-md-4" style="color:wheat">Game Projects</h2>
+            <div class="row">
+                <div *ngFor="let project of gameProjects" class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="card-title">{{ project.title }}</h5>
+                            <div class="dateOfProject fst-italic border-bottom rounded-5">
+                                <span class="start fs-6">{{ project.startDate }}</span>
+                                <span class="d-none d-sm-flex fs-6">|</span>
+                                <span class="end fs-6">{{ project.endDate }}</span>
+                            </div>
+                        </div>
+                        <img class="rounded-5 p-3 border-bottom rounded-5 w-100" [src]="project.thumbnail" alt="">                       
+                        <div class="card-body" style="color:wheat">      
+                            {{ project.desc | truncate:191 }}                   
+                        </div>
+                        <hr style="border-color:wheat">
+                        <a href="#" class="card-link p-0">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

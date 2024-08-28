@@ -1,0 +1,108 @@
+.categorySection {
+    display: flex;
+    justify-content: center;
+}
+
+.catLink {
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.normal {
+    color: rgb(5, 205, 255);
+    margin-right: 10px;
+}
+
+.normal.active,
+.game.active {
+    color: wheat;
+}
+
+.game {
+    color: rgb(230, 9, 177);
+    margin-left: 10px;
+}
+
+.card,
+.card-body {
+    border-color: rgb(230, 9, 177) !important;
+    background: #050336;
+    border-radius: 50px;
+    height: 20vh;
+    font-size: 1rem;    
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;/
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card:hover,
+.card-body:hover {
+    border-color: rgb(5, 205, 255) !important;
+}
+
+.list-group-item,
+.list-group-flush {
+    background: #050336;
+    border-color: rgb(230, 9, 177);
+    ;
+}
+.card-link{
+    color: rgb(230, 9, 177);
+    text-decoration: none;
+}
+
+.card-title {
+    color: rgb(230, 9, 177);
+}
+
+.dateOfProject {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(5, 205, 255) ;
+}
+
+@media (max-width: 767px) {
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .card-header {
+        padding: 0.5rem;
+    }
+
+    .dateOfProject {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .card-link {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .categorySection {
+        margin-bottom: 1rem;
+    }
+}
+
