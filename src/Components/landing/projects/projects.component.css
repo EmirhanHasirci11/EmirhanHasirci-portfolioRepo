@@ -8,48 +8,48 @@ body{
     align-items: center;
 }
 .projectTitle{
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
 }
 .projectDesc{
     color: wheat;
 }
 .projectLink{
-    color: rgb(230, 9, 177);   
+    color: var(--secondary-pink);   
 }
 .projectImgCol{
-    border-color:rgb(230, 9, 177) !important; 
+    border-color:var(--secondary-pink) !important; 
 }
 .card,.card-body{
-    border-color:rgb(230, 9, 177) !important;
+    border-color:var(--secondary-pink) !important;
     background: #050336; 
     
 }
 .card:hover,.card-body:hover{
-    border-color:rgb(5, 205, 255) !important; 
+    border-color:var(--secondary-blue) !important; 
 }
 .viewMore{
     text-decoration: none;
-    color: rgb(5, 205, 255) ; 
+    color: var(--secondary-blue) ; 
 }
 
 .viewMore:hover{
     color: wheat;
 }
 .projectsHead{
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
 }
 
 .projectsHead:hover{
-    color: rgb(5, 205, 255) ; 
+    color: var(--secondary-blue) ; 
 }
 .projectImageL{
-    border-color: rgb(5, 205, 255) !important; 
+    border-color: var(--secondary-blue) !important; 
     border-style: groove;
     border-radius: 50px;
     
 }
 .projectImageR{
-    border-color: rgb(230, 9, 177) !important; 
+    border-color: var(--secondary-pink) !important; 
     border-style: groove;
     border-radius: 50px;
     

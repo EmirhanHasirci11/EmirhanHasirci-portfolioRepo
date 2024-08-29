@@ -1,5 +1,5 @@
 .mainNav{
-    background-color:#050326; ;
+    background-color:var(--background-purple); ;
 }
 .myName {
     font-size: 1.8rem;
@@ -14,24 +14,24 @@
 }
 
 .navbar-brand {
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
 }
 .nav-link-resume{
     color: wheat !important;
 }
 .nav-link-resume:hover{
-    color: rgb(230, 9, 177) !important;
+    color: var(--secondary-pink) !important;
 }
 .nav-link {
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
 }
 
     .nav-link:hover {
-        color: rgb(230, 9, 177);
+        color: var(--secondary-pink);
     }
 
 .nameText {
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
     font-size: 75px;
 }
 
@@ -69,7 +69,7 @@
 
 .account-links:hover {
     cursor: pointer;
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
 }
 
 .account-links {

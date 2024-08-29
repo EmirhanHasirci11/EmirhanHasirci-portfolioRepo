@@ -1,21 +1,32 @@
+:root {
+    --secondary-blue: rgb(5, 205, 255);
+    --secondary-pink: rgb(230, 9, 177);
+    --background-purple:#050326;
+}
+
+
 * {
     font-size: 1.2rem;
     font-family: monospace;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
+
+
 ::-webkit-scrollbar {
-    width: 0;  /* WebKit tabanlı tarayıcılar için kaydırma çubuğunu gizler */
-    background: transparent;  /* Arka planı şeffaf yapar */
+    width: 0;
+    /* WebKit tabanlı tarayıcılar için kaydırma çubuğunu gizler */
+    background: transparent;
+    /* Arka planı şeffaf yapar */
 }
 
 html {
     height: 100%;
     background: #050326;
 }
-body{
-    background-color:#050326 !important;
-}
 
+body {
+    background-color: #050326 !important;
+}

@@ -1,19 +1,25 @@
 body{
     height: 100%;
-    background: #050326;
+    background: var(--background-purple);
     color: white;
    
 }
 .careerSection{
     margin-top: 15vh;
 }
+.aboutSection{
+    margin-top: 22vh;    
+}
+.aboutSection .head{
+    color: var(--secondary-pink);
+}
 .nameText {
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
     font-size: 3.5rem;
 }
 
 .nameText:hover{
-    color: rgb(230, 9, 177);   
+    color: var(--secondary-pink);   
 }
 .myName {
     font-size: 1.8rem;
@@ -28,7 +34,7 @@ body{
     padding-right: 4.5rem;
 }
 .description:hover {
-    color: rgb(230, 9, 177);   
+    color: var(--secondary-pink);   
 }
 .profilePic {
     margin-bottom: 20px;
@@ -46,20 +52,23 @@ body{
 }
 .account-links:hover {
     cursor: pointer;
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
 }
 
+.footerHead{
+    color:var(--secondary-blue);
+}
 .experiencesHead{
     
-    color: rgb(5, 205, 255) ; 
+    color: var(--secondary-blue) ; 
 }
 
 .experiencesHead:hover{
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
 }
 .account-links {
     text-decoration: none;
-    color: rgb(230, 9, 177);    
+    color: var(--secondary-pink);    
     align-items: center; 
     margin-bottom: 10px; 
     text-decoration: none; 
@@ -75,7 +84,9 @@ body{
     .careerSection{
         margin-top: 2vh;
     }
-    
+    .aboutSection{
+        margin-top: 2vh;
+    }
     .description {
         font-size: 1.3rem;
         text-align: center;

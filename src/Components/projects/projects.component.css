@@ -10,7 +10,7 @@
 }
 
 .normal {
-    color: rgb(5, 205, 255);
+    color: var(--secondary-blue);
     margin-right: 10px;
 }
 
@@ -20,13 +20,13 @@
 }
 
 .game {
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
     margin-left: 10px;
 }
 
 .card,
 .card-body {
-    border-color: rgb(230, 9, 177) !important;
+    border-color: var(--secondary-pink) !important;
     background: #050336;
     border-radius: 50px;
     height: 20vh;
@@ -34,7 +34,7 @@
     hyphens: auto;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    white-space: normal;/
+    white-space: normal;
 }
 
 .card-title {
@@ -43,29 +43,29 @@
 
 .card:hover,
 .card-body:hover {
-    border-color: rgb(5, 205, 255) !important;
+    border-color: var(--secondary-blue) !important;
 }
 
 .list-group-item,
 .list-group-flush {
     background: #050336;
-    border-color: rgb(230, 9, 177);
+    border-color: var(--secondary-pink);
     ;
 }
 .card-link{
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
     text-decoration: none;
 }
 
 .card-title {
-    color: rgb(230, 9, 177);
+    color: var(--secondary-pink);
 }
 
 .dateOfProject {
     display: flex;
     justify-content: center;
     gap: 10px;
-    color: rgb(5, 205, 255) ;
+    color: var(--secondary-blue) ;
 }
 
 @media (max-width: 767px) {

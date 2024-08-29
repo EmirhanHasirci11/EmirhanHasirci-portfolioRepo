@@ -9,10 +9,10 @@ p{
     font-size: 1.1rem;
 }
 .r-l{
-    border-color:rgb(5, 205, 255)!important;
+    border-color:var(--secondary-blue)!important;
     border-radius: 40px;
 }
 .r-r{
     border-radius: 40px;
-    border-color:rgb(230, 9, 177) !important; 
+    border-color:var(--secondary-pink) !important; 
 }
