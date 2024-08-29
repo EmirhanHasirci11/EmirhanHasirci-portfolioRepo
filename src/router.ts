@@ -3,6 +3,7 @@ import { LayoutComponent } from "./Components/Layout/layout/layout.component";
 import { LandingComponent } from "./Components/landing/landing.component";
 import { ProjectsComponent } from "./Components/projects/projects.component";
 import { DetailComponent } from "./Components/projects/detail/detail.component";
+import { AboutComponent } from "./Components/about/about.component";
 
 export const routes: Routes = [
     {
@@ -18,7 +19,10 @@ export const routes: Routes = [
             }, {
                 path: "projects/:id",
                 component: DetailComponent
-            }
+            },{
+                path:"about",
+                component:AboutComponent
+            }        
         ]
     }
 ]
