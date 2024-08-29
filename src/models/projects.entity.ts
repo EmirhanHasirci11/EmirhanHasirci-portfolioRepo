@@ -41,9 +41,9 @@ export class Projects {
                 '1',
                 'Project Title 1',
                 'Short description 1',
-                'Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 ',
+                'Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1 Detailed description of the project 1',
                 'https://github.com/EmirhanHasirci11/Map-Guesser-Game/assets/54208249/54226e76-3994-47cc-a372-4e1fe66eb433',
-                ['image1.jpg', 'image2.jpg'],
+                ['https://github.com/EmirhanHasirci11/Map-Guesser-Game/assets/54208249/54226e76-3994-47cc-a372-4e1fe66eb433', 'https://github.com/EmirhanHasirci11/Map-Guesser-Game/assets/54208249/531aa37d-0d1f-4118-af6a-f7fd93cbb1d2'],
                 '2023-01-01',
                 '2023-06-01',
                 "Game"                

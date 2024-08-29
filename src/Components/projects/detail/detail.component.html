@@ -1,1 +1,24 @@
-<p>detail works!</p>
+<div class="container">
+    <div class="row">
+        <h3 style="color: rgb(230, 9, 177);" class="text-center mb-2"> {{data.title}}</h3>
+        <div class="col-md-8 offset-md-2 border rounded-3 p-0">
+
+            <c-carousel>                
+                <c-carousel-inner>
+                    <c-carousel-item *ngFor="let slide of data.images">
+                        <img [src]="slide" class="d-block w-100 rounded-3"  />
+                    </c-carousel-item>
+                </c-carousel-inner>
+                <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+                <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+            </c-carousel>
+            
+        </div>
+        <p class="text-center" style="color: rgb(5, 205, 255) ;">
+            {{data.startDate}} | {{data.endDate}}
+        </p>
+        <p style="color:wheat;word-wrap: break-word;">
+          {{data.desc}}  
+        </p>
+    </div>
+</div>

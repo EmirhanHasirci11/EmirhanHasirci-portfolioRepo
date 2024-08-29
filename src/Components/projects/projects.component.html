@@ -30,7 +30,7 @@
                             {{ project.desc | truncate:191 }}                   
                         </div>
                         <hr style="border-color:wheat">
-                        <a href="#" class="card-link p-0">Details</a>
+                        <a [routerLink]="['/projects/',project.id]" class="card-link p-0">Details</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                             {{ project.desc | truncate:191 }}                   
                         </div>
                         <hr style="border-color:wheat">
-                        <a href="#" class="card-link p-0">Details</a>
+                        <a [routerLink]="['/projects',project.id]" class="card-link p-0">Details</a>
                     </div>
                 </div>
             </div>
