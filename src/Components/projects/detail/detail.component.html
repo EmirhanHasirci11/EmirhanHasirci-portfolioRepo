@@ -17,8 +17,8 @@
         <p class="text-center" style="color: rgb(5, 205, 255) ;">
             {{data.startDate}} | {{data.endDate}}
         </p>
-        <p style="color:wheat;word-wrap: break-word;">
-          {{data.desc}}  
+        <p *ngFor="let dsc of data.desc" style="color:wheat;word-wrap: break-word;">
+          {{dsc}}  
         </p>
     </div>
 </div>

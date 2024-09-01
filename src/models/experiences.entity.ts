@@ -6,38 +6,38 @@ export class Experiences {
             new Experience(
                 '1',
                 'GDSC Turkey',
-                'Led multiple projects',
-                'Managed a portfolio of software projects, ensuring timely delivery and alignment with business goals. Facilitated communication between stakeholders and development teams, leading to a 20% improvement in project delivery times.',
+                'Contribute to community',
+                'As a Facilitator in the GDSC Turkey team, I actively contribute by sharing my experiences with the new GDSC Leaders. I guide them in their roles and assist in various aspects of community management, ensuring the continued growth and success of the GDSC community.',
                 'Aug 2024',
                 'Current',
-                'Facilitator'
-            ),
+                'Facilitator/Marketing'
+            ),            
             new Experience(
                 '2',
-                'Data Analyst',
-                'Analyzed datasets',
-                'Performed data analysis to identify trends and insights, leading to data-driven decision-making. Developed automated reporting systems using Python and SQL, which reduced reporting time by 30%.',
-                '2019-01-15',
-                '2020-08-31',
-                'Analyst'
-            ),
-            new Experience(
-                '4',
-                'UI/UX Designer',
-                'Designed user interfaces',
-                'Designed intuitive user interfaces for mobile and web applications, improving user engagement by 25%. Collaborated with developers to ensure design consistency across platforms and implemented user feedback into designs.',
-                '2023-08-01',
-                '2024-08-01',
-                'Designer'
+                'Turkish Technology Team (T3)',
+                'You are the future.',
+                'As one of the 380 individuals selected for the Turkish Technology Team, I assist high school and middle school students in the Deneyap workshops, contributing to the growth of the technology ecosystem.',
+                'Oct 2023',
+                'Current',
+                'Scholarship'
             ),
             new Experience(
                 '3',
-                'Software Engineer',
-                'Developed web applications',
-                'Worked on a team to design, develop, and deploy scalable web applications using Angular and Node.js. Improved application performance by optimizing SQL queries and reducing API response times.',
-                '2022-05-01',
-                '2023-07-30',
-                'Engineer'
+                'Game and Application Academy',
+                'Unity game development',
+                'As a Google Game and Application Academy Scholar, I gained foundational knowledge in game development with Unity, and by completing the Google Project Management Certificate program, I acquired valuable experience in project management.',
+                'Dec 2023',
+                'Aug 2024',
+                'Trainee'
+            ),
+            new Experience(
+                '4',
+                'GDSC Founder Lead',
+                'Led community',
+                'In my recent role as the Founder Lead of Google Developer Student Clubs (GDSC) Bartın, I established and led a community dedicated to Google developer technologies. This experience enhanced my collaborative and leadership abilities, providing a platform for knowledge exchange among aspiring professionals.',
+                'Aug 2023',
+                'Aug 2024',
+                'Lead/Marketing'
             )
         ];
     }

@@ -12,7 +12,7 @@ import { Project, Projects } from '../../../models/projects.entity';
 export class ProjectsComponent implements OnInit {
   projects: Project[]=[]
   ngOnInit(): void {
-    this.projects = new Projects().data.slice(0,4);
+    this.projects = new Projects().data.sort((a, b) => a.id.localeCompare(b.id)).slice(0,4);
   }
 
 }

@@ -10,6 +10,12 @@ body{
 .projectTitle{
     color: var(--secondary-blue);
 }
+.projectTitle:hover{
+    color: wheat;
+}
+.projectLink:hover{
+    color:wheat;
+}
 .projectDesc{
     color: wheat;
 }
@@ -28,8 +34,20 @@ body{
     border-color:var(--secondary-blue) !important; 
 }
 .viewMore{
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--secondary-blue) ; 
+}
+.projectTitleR{
+    color: var(--secondary-pink);
+}
+.projectLinkR{
+    color: var(--secondary-blue);
+}
+.projectTitleR:hover{
+    color: wheat;
+}
+.projectLinkR:hover{
+    color: wheat;
 }
 
 .viewMore:hover{

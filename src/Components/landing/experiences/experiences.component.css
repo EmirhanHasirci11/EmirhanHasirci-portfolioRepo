@@ -20,7 +20,7 @@
   hyphens: auto; 
   word-wrap: break-word;
   overflow-wrap: break-word;
-  white-space: normal; /
+  white-space: normal;
 }
 .card:hover,.card-body:hover{
     border-color:var(--secondary-blue) !important; 

@@ -5,30 +5,30 @@
   <hr class="mb-md-5 bg-white">   
     <div *ngFor="let c of projects; let i = index">
         <div *ngIf="i % 2 === 0; else oddTemplate" class="row mb-md-5 mb-2 rowOfProject">
-          <div class="col-md-6 order-md-1 order-1 text-center">
+          <div class="col-md-6 order-md-1 order-1 text-center ">
             <a [routerLink]="['projects/',c.id]" class="projectLink fw-bold text-decoration-none text-capitalize" > 
               <h3 class="projectTitle" style="font-weight: bold;">{{ c.title }}</h3>
               <img [src]="c.thumbnail" class="w-100 projectImageL"  alt="Project Image"> details
             </a>
           </div>
-          <div class="projectDesc col-md-6 order-md-2 order-2 ps-4 text-center d-flex flex-column justify-content-start">            
+          <div class="projectDesc col-md-6 order-md-2 order-2 ps-4  d-flex flex-column justify-content-start">            
             <p>{{ c.shortDesc }}</p>
           </div>
         </div>
         <ng-template #oddTemplate>
           <div class="row rowOfProject mb-md-5 mb-2">
-            <div class="projectDesc col-md-6 order-md-1 order-2 ps-4 text-center d-flex flex-column justify-content-start">              
+            <div class="projectDesc col-md-6 order-md-1 order-2 ps-4  d-flex flex-column justify-content-start">              
               <p>{{ c.shortDesc }}</p>
             </div>
-            <div class="col-md-6 order-md-2 order-1 text-center">
-              <a [routerLink]="['projects/',c.id]" class="text-decoration-none fw-bold text-capitalize projectLink" > 
-                <h3 style="font-weight: bold;" class="projectTitle">{{ c.title }}</h3>
+            <div class="col-md-6 order-md-2 order-1 text-center ">
+              <a [routerLink]="['projects/',c.id]" class="text-decoration-none fw-bold text-capitalize projectLinkR" > 
+                <h3 style="font-weight: bold;" class="projectTitleR">{{ c.title }}</h3>
                 <img [src]="c.thumbnail" class="w-100 projectImageR" alt="Project Image"> details
               </a>
             </div>
           </div>
         </ng-template>
       </div>
-      <a routerLink="/Projects" class="viewMore"><h5 class="text-center fw-bolder text-decoration-underline">View More</h5>   </a>     
+      <a routerLink="/projects" class="viewMore"><h5 class="text-center fw-bolder text-decoration-underline">View More</h5>   </a>     
 </body>
 </html>

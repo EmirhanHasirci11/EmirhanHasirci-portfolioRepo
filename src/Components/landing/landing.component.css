@@ -5,13 +5,23 @@ body{
    
 }
 .careerSection{
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 .aboutSection{
     margin-top: 22vh;    
 }
+.readMore{
+    text-decoration: underline;
+    color: var(--secondary-pink) ; 
+}
+.readMore:hover{
+    color: wheat;
+}
 .aboutSection .head{
     color: var(--secondary-pink);
+}
+.aboutSection .head:hover{
+    color: wheat;
 }
 .nameText {
     color: var(--secondary-blue);
