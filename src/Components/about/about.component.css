@@ -16,3 +16,11 @@ p{
     border-radius: 40px;
     border-color:var(--secondary-pink) !important; 
 }
+
+@media only screen and (max-width: 600px) {
+.projectImageL,.projectImageR{
+    width: 100%; 
+    max-width: 350px; 
+    height: auto; 
+    border-radius: 10%;       
+}}

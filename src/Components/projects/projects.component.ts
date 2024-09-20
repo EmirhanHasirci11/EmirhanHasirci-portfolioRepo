@@ -19,8 +19,13 @@ export class ProjectsComponent implements OnInit {
   }
   ngOnInit(): void {    
     const projects = new Projects().data;
-    this.normalProjects = projects.sort((a, b) => a.id.localeCompare(b.id)).filter(project => project.category === 'Normal');
-    this.gameProjects = projects.sort((a, b) => a.id.localeCompare(b.id)).filter(project => project.category === 'Game');
+    this.normalProjects = projects
+  .filter(project => project.category === 'Normal')
+  .sort((a, b) => parseInt(a.id) - parseInt(b.id));
+  this.gameProjects = projects
+  .filter(project => project.category === 'Game')
+  .sort((a, b) => parseInt(a.id) - parseInt(b.id));
+
   }
 
   

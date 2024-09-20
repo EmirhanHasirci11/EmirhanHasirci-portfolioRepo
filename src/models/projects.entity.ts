@@ -82,7 +82,7 @@ export class Projects {
                 "Game"
             ),
             new Project(
-                '3',
+                '9',
                 'Twitter Angular Clone',
                 'A simple Twitter (X) clone project using Angular and Bootstrap libraries.',
                 ['A simple Twitter (X) clone project using Angular and Bootstrap libraries.'],
@@ -93,7 +93,7 @@ export class Projects {
                 "Normal"
             )            ,
             new Project(
-                '4',
+                '8',
                 'Real-time-chatting-app',
                 'A real-time messaging infrastructure designed with SignalR, developed with .NET 7, and featuring user authentication using the Identity library.',
                 ['A real-time messaging infrastructure designed with SignalR, developed with .NET 7, and featuring user authentication using the Identity library.','Online users can see each other and start messaging with one another.','If you spoke to someone in the past, this interaction is saved in the database, and you can read your previous messages.',`If you are in another user's chat and someone else sends you a message, you can see that notification in the bottom right corner. Newly joined users are shown in the top right corner. `,'You can send offline messages to clients that they will receive when they open the app.','Used Technologies: .NetCore 7.0, Miscrosoft Identity, MSSQL, Bootstrap CSS, SignalR'],
@@ -102,7 +102,54 @@ export class Projects {
                 'Dec 2023',
                 'Jan 2024',
                 "Normal"
+            ),
+            new Project(
+                '7',
+                'X-O-X Game',
+                'X-O-X game made with Angular',
+                ['X-O-X game made with Angular','Playable on: https://emirhanhasirci11.github.io/Angular-X-O-X-Game/'],
+                'https://github.com/EmirhanHasirci11/Angular-X-O-X-Game/assets/54208249/c0c06e9f-c4c4-4a16-ba5c-e04c895d3b1c',
+                ['https://github.com/EmirhanHasirci11/Angular-X-O-X-Game/assets/54208249/c0c06e9f-c4c4-4a16-ba5c-e04c895d3b1c','https://github.com/EmirhanHasirci11/Angular-X-O-X-Game/assets/54208249/ffda58a6-09dc-4b2a-9ce2-5cdc8d50d606','https://github.com/EmirhanHasirci11/Angular-X-O-X-Game/assets/54208249/e60d20a7-92c7-467d-a639-6c93765c9d5f'],
+                'Jul 2023',
+                'Jul 2023',
+                "Game"
+            ),
+            new Project(
+                '3',
+                'Mini-E-Commerce',
+                'A mini e-commerce site project developed using Angular, Next.js, Express.js, and MongoDB.',
+                ['A mini e-commerce site project developed using Angular, Next.js, Express.js, and MongoDB.'],
+                'https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/0718e7a4-b86f-444e-bd0f-f4a6ffc8f85e',
+                ['https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/0718e7a4-b86f-444e-bd0f-f4a6ffc8f85e','https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/e6b356be-594d-4fb2-a5a7-ed48e2abade1','https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/4b524eb5-2ee5-4052-ba60-ec666b3c28c6','https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/3758f371-77f9-46ae-a560-709c69ed1b98','https://github.com/EmirhanHasirci11/Angular-Mini-E-commerce/assets/54208249/b5908169-5a98-4809-ac40-000c4a80f022'],
+                'Jul 2023',
+                'Jul 2023',
+                "Normal"
+            ),            
+            new Project(
+                '4',
+                'AnguBlog',
+                'A blog application developed using .NET 7 API and Angular.',
+                ['A blog application developed using .NET 7 API and Angular.'],
+                'https://github.com/user-attachments/assets/6ee39637-dbb3-4c81-93ba-8e22f6885b4e',
+                ['https://github.com/user-attachments/assets/6ee39637-dbb3-4c81-93ba-8e22f6885b4e','https://github.com/user-attachments/assets/b0c5fa85-c480-447f-9268-8173a694d533',],
+                'Jul 2023',
+                'Jul 2023',
+                "Normal"
+            ),
+            new Project(
+                '10',
+                'Pokedex',
+                'A pokedex app used PokeAPI',
+                ['A pokedex app used PokeAPI'],
+                'https://user-images.githubusercontent.com/54208249/229518635-81fdc2ae-cd85-4895-a630-5a31db669eb9.png',
+                ['https://user-images.githubusercontent.com/54208249/229518635-81fdc2ae-cd85-4895-a630-5a31db669eb9.png','https://user-images.githubusercontent.com/54208249/229518662-805bce9d-2749-43f7-943a-0e48d4bac3a2.png',],
+                'Jul 2023',
+                'Jul 2023',
+                "Normal"
             )
+            
+           
+
 
         ];
     }
